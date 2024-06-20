@@ -1,0 +1,80 @@
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.user-info {
+  background-color: #075E54;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: #ece5dd;
+}
+
+.message {
+  display: flex;
+  margin: 5px 0;
+}
+
+.user-message-container {
+  justify-content: flex-start;
+}
+
+.doctor-message-container {
+  justify-content: flex-end;
+}
+
+.sent-message, .received-message {
+  max-width: 60%;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.sent-message {
+  background-color: #dcf8c6; /* User's message bubble color */
+  align-self: flex-start;
+}
+
+.received-message {
+  background-color: #8dd5f4; /* Doctor's message bubble color */
+  color: white;
+  align-self: flex-end;
+}
+
+.input-container {
+  display: flex;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+  background-color: white;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-right: 10px;
+  outline: none;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  background-color: #075E54;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #128C7E;
+}

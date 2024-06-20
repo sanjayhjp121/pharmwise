@@ -1,0 +1,42 @@
+.doctor-portal-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-list {
+  width: 25%;
+  border-right: 1px solid #ccc;
+  padding: 20px;
+}
+
+.user-list h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.user-card {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.user-card h3 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.chat-button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-button:hover {
+  background-color: #0056b3;
+}
+
